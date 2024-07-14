@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  nposition: fixed;
+  width: 100%;
+  top: 0px;
+ 
+}
+#nav {
+  display: flex;
+  justify-content: right;
+
+}
+.container {
+  background-color: rgb(16, 49, 240);
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+
+}
+.container ul {
+  display: flex;
+
+  justify-content: right;
+}
+.container img {
+  width: 75px;
+  height: 50px;
+  margin-right: 63vw;
+ border-radius: 5px;
+}
+.container ul li {
+  margin: 10px;
+  font-size: 20px;
+  list-style-type: none;
+padding: 5px;
+  justify-content: center;
+}
+.container ul li a {
+    color: white;
+  text-decoration: none;
+}
+.container ul li a:hover {
+  font-size: 22px;
+  color: yellow;
+text-decoration: underline;
+}
+
+#foter_nav ul,
+p{
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+}
+.box1 {
+  background-color: rgb(140, 113, 192);
+  color: white;
+  border: 1px solid;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 5px 5px 5px blue;
+ 
+}
+h1{
+ text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow;
+  margin: 3px;
+}
+pre {
+  text-align: center;
+  font-size: 18px;
+}
+
+#foter_nav a p{
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid blue;
+  background-color: rgb(223, 238, 21);
+
+}
+
+@media only screen and (min-width: 100px) {
+  .container img {
+  margin-right: 0vw;
+
+}
+}
